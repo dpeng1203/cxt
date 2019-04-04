@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import './assets/style/reset.css'
-
+import 'babel-polyfill'
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
